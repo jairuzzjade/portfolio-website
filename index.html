@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- AOS Animation Library CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Montserrat:900|Work+Sans:300"
+    />
+
+    <!-- CSS Code -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Portfolio Website</title>
+  </head>
+  <body>
+    <div class="cursor"></div>
+    <nav>
+      <div class="nav-container" id="nav-container">
+        <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+          <span>Jairuzz Jade </span> Marcelino
+        </div>
+        <div class="links">
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="100"
+          >
+            <a href="#">Home</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="200"
+          >
+            <a href="#projects">Projects</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="300"
+          >
+            <a href="#skills">Skills</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="400"
+          >
+            <a href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+      <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+      <div class="dropdown">
+        <div class="links">
+          <a href="#nav-container" onclick="cancel()">Home</a>
+          <a href="#projects" onclick="cancel()">Projects</a>
+          <a href="#skills" onclick="cancel()">Skills</a>
+          <a href="#contact" onclick="cancel()">Contact</a>
+          <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+      </div>
+    </nav>
+    <section id="home">
+      <div class="main-container">
+        <div class="content">
+          <h1
+            data-aos="fade-left"
+            data-aos-duration="1500"
+            data-aos-delay="700"
+          >
+            Hey I'm Jairuzz Jade.<span></span>
+          </h1>
+          <div
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-delay="900"
+            class="typewriter"
+          >
+            I'm a <span class="typewriter-text"></span><label for="">|</label>
+          </div>
+          <p
+            data-aos="flip-down"
+            data-aos-duration="1500"
+            data-aos-delay="1100"
+          >
+            Equipped with a Bachelor's degree in Computer Engineering, I excel
+            at crafting innovative, user-driven solutions. Fueled by passion,
+            I'm eager to join a forward-thinking team.
+            <br />Let's build something exceptional together!
+          </p>
+          <div class="social-links">
+            <a
+              href="https://www.linkedin.com/in/jairuzz-jade-marcelino-303073320"
+              target="_blank"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1300"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a
+              href="https://github.com/jairuzzjade/"
+              target="_blank"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1400"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="https://www.jobstreet.com.ph/profile/jairuzzjade-marcelino-ZtpNLLdFbN"
+              target="_blank"
+              data-aos="fade-up"
+              data-aos-duration="1500"
+              data-aos-delay="1600"
+              ><i class="fa-solid fa-magnifying-glass"></i
+            ></a>
+          </div>
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="1600"
+            class="email"
+          >
+            <br />
+            <p>
+              Calumpit, Bulacan 3003 | marcelinojairuzzjade@gmail.com | + 63 969
+              078 7289
+            </p>
+          </div>
+          <div
+            class="btn"
+            data-aos="zoom-out"
+            data-aos-duration="1500"
+            data-aos-delay="1800"
+          >
+            <a href="cv.pdf" download><button>Download CV</button></a>
+          </div>
+        </div>
+        <div class="image" data-aos="zoom-in" data-aos-duration="3000">
+          <img src="main.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="project-container">
+        <div class="projecthead" data-aos="zoom-in" data-aos-duration="1500">
+          Creations in Code
+        </div>
+        <div class="carousel">
+          <button class="carousel-arrow left-arrow">&lt;</button>
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              <img
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                src="project1-image.png"
+                alt="Plug and Pay Cloud-Enabled Mobile App"
+                class="project-image"
+              />
+              <h3
+                class="project-title"
+                data-aos="zoom-in"
+                data-aos-duration="2000"
+              >
+                PLUG AND PAY CLOUD-ENABLED MOBILE APP
+              </h3>
+              <h2>
+                <span
+                  data-aos="zoom-in"
+                  data-aos-duration="2000"
+                  class="typewriter-text2"
+                ></span
+                ><label for="">|</label>
+              </h2>
+              <p
+                class="project-description"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+              >
+                The Smart Plug and Payment System app allows users to remotely
+                control smart plugs, monitor real-time power usage, and manage
+                energy expenses. I was responsible for creating wireframes,
+                designing mockups, and developing the mobile app with its data
+                connected to the database.
+              </p>
+            </div>
+            <div class="carousel-item">
+              <img
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                src="project2-image.png"
+                alt="Kape Kapitolyo E-Commerce Site"
+                class="project-image"
+              />
+              <h3
+                class="project-title"
+                data-aos="zoom-in"
+                data-aos-duration="2000"
+              >
+                KAPE KAPITOLYO E-COMMERCE SITE
+              </h3>
+              <h2>
+                <span
+                  data-aos="zoom-in"
+                  data-aos-duration="2000"
+                  class="typewriter-text3"
+                ></span
+                ><label for="">|</label>
+              </h2>
+              <p
+                class="project-description"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+              >
+                The website is a reservation platform where customers can book
+                seats, order food, view the menu, and access relevant
+                announcements. This project highlights my skills in building an
+                engaging booking website that effectively combines design and
+                functionality.
+              </p>
+            </div>
+            <div class="carousel-item">
+              <img
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                src="project3-image.png"
+                alt="Fami-Fi Mobile Application"
+                class="project-image"
+              />
+              <h3
+                class="project-title"
+                data-aos="zoom-in"
+                data-aos-duration="2000"
+              >
+                FAMI-FI MOBILE APPLICATION
+              </h3>
+              <h2>
+                <span
+                  data-aos="zoom-in"
+                  data-aos-duration="2000"
+                  class="typewriter-text4"
+                ></span
+                ><label for="">|</label>
+              </h2>
+              <p
+                class="project-description"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+              >
+                Fami-Fi is designed as the ultimate family empowerment tool,
+                providing a centralized hub for schedules, announcements, and
+                gamified chores suitable for all ages. As the UI/UX designer, I
+                focused on creating a user-friendly interface that blends
+                functionality with a delightful user experience, making family
+                organization and interaction more seamless and enjoyable.
+              </p>
+            </div>
+            <div class="carousel-item">
+              <img
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+                src="project4-image.png"
+                alt="W&D Dreamland Resort Informational Website"
+                class="project-image"
+              />
+              <h3
+                class="project-title"
+                data-aos="zoom-in"
+                data-aos-duration="2000"
+              >
+                W&D DREAMLAND RESORT INFORMATIONAL WEBSITE
+              </h3>
+              <h2>
+                <span
+                  data-aos="zoom-in"
+                  data-aos-duration="2000"
+                  class="typewriter-text5"
+                ></span
+                ><label for="">|</label>
+              </h2>
+              <p
+                class="project-description"
+                data-aos="zoom-in"
+                data-aos-duration="1500"
+              >
+                This informational website offers visitors comprehensive details
+                about the resort's facilities, services, and contact
+                information. My role involved handling UI/UX design and frontend
+                development. This project showcases my ability to craft visually
+                appealing and functional websites, merging design aesthetics
+                with technical proficiency to create a smooth user experience.
+              </p>
+            </div>
+            <!-- Add more projects here as needed -->
+          </div>
+          <button class="carousel-arrow right-arrow">&gt;</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+      <div class="skillshead" data-aos="zoom-in" data-aos-duration="1500">
+        <br /><br />Skills in Action
+      </div>
+
+      <div class="allskills">
+        <!-- Technical Skills -->
+        <div class="skills-container">
+          <div class="skills-column column1">
+            <div
+              class="skills-category"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+            >
+              <h3>Technical Skills</h3>
+            </div>
+          </div>
+          <div class="skills-column column2">
+            <div
+              class="skills-details"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+            >
+              <p>
+                HTML5 | CSS3 | JavaScript | Angular | React | PHP | Python | C |
+                C# | C++ | Figma | Canva | SQL
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <hr class="separator" />
+
+        <!-- Professional Skills -->
+        <div class="skills-container">
+          <div class="skills-column column1">
+            <div
+              class="skills-category"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+            >
+              <h3>Professional Skills</h3>
+            </div>
+          </div>
+          <div class="skills-column column2">
+            <div
+              class="skills-details"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+            >
+              <p>
+                Critical Thinking | Excellent Communication | Project Management
+                | Detail-Oriented | Team Leadership | Team Collaboration |
+                Problem-solving Skills | Decision Making | Time Management |
+                Adaptability | Client Relations | Strategic Planning | Emotional
+                Intelligence | Agile Methodology
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <hr class="separator" />
+
+        <!-- Certificates and Seminars -->
+        <div class="skills-container">
+          <div class="skills-column column1">
+            <div
+              class="skills-category"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+            >
+              <h3>Certificates and Seminars</h3>
+            </div>
+          </div>
+          <div class="skills-column column2">
+            <div
+              class="skills-details"
+              data-aos="zoom-in"
+              data-aos-duration="1500"
+            >
+              <p>
+                SAP Enterprise Resource Planning (February, 2024) <br />
+                HCIA - Cloud Service V3.0 Course (March, 2024) <br />
+                Machine Learning using Python (April, 2024) <br />
+                Software Test Automation (April, 2024) <br />
+                Techniques for Achieving Balance in Stress and Time Management
+                (April, 2024) <br />
+                Cybersecurity (May, 2024)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="contact-container">
+        <div class="contacthead">
+          <p data-aos="zoom-in" data-aos-duration="1500">
+            Ready to create something remarkable? Fill out the form and connect
+            with me!
+          </p>
+        </div>
+
+        <!-- Email Js -->
+        <form id="contact-form" class="contact-form">
+          <label data-aos="zoom-in" data-aos-duration="1500" for="name"
+            >Name *</label
+          >
+          <input
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            type="text"
+            id="name"
+            name="name"
+            required
+          />
+
+          <label data-aos="zoom-in" data-aos-duration="1500" for="email"
+            >Email *</label
+          >
+          <input
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            type="email"
+            id="email"
+            name="email"
+            required
+          />
+
+          <label data-aos="zoom-in" data-aos-duration="1500" for="subject"
+            >Subject</label
+          >
+          <input
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            type="text"
+            id="subject"
+            name="subject"
+          />
+
+          <label data-aos="zoom-in" data-aos-duration="1500" for="message"
+            >Message *</label
+          >
+          <textarea
+            data-aos="zoom-in"
+            data-aos-duration="1500"
+            id="message"
+            name="message"
+            rows="4"
+            required
+          ></textarea>
+
+          <button data-aos="zoom-in" data-aos-duration="1500" type="submit">
+            Submit
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <br />
+    <br />
+
+    <!--Footer-->
+
+    <footer>
+      <div class="footer-container">
+        <!-- Scroll to Top Button -->
+        <button
+          data-aos="fade-up"
+          data-aos-duration="1200"
+          class="scroll-to-top"
+          onclick="scrollToTop()"
+        >
+          ↑ Back to Top
+        </button>
+
+        <!-- Social Media Links -->
+        <div class="social-links">
+          <a
+            href="https://www.linkedin.com/in/jairuzz-jade-marcelino-303073320"
+            target="_blank"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="500"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            href="https://github.com/jairuzzjade/"
+            target="_blank"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="600"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.jobstreet.com.ph/profile/jairuzzjade-marcelino-ZtpNLLdFbN"
+            target="_blank"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+            data-aos-delay="800"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></a>
+        </div>
+
+        <!-- Copyright Text -->
+        <div class="copyright-text">
+          © Copyright 2024 My Portfolio Website <span class="bullet">•</span> by
+          Jairuzz Jade A. Marcelino
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Initialize AOS after the DOM is ready -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ offset: 0 });
+    </script>
+
+    <!-- EmailJS SDK (used for form submission, so it can load later) -->
+    <script
+      type="text/javascript"
+      src="https://cdn.emailjs.com/dist/email.min.js"
+    ></script>
+
+    <!-- JavaScript file -->
+    <script src="script.js"></script>
+  </body>
+</html>
